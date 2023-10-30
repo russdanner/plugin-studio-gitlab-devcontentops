@@ -1,0 +1,57 @@
+# This file describes a plugin for use in CrafterCMS
+
+# The version of the format for this file
+descriptorVersion: 2
+
+# Describe the plugin
+plugin:
+  type: site
+  id: org.rd.plugin.gitlab
+  name: Studio Gitlab Plugin
+  tags:
+    - studio
+  version:
+    major: 1
+    minor: 0
+    patch: 0
+  description: A plugin to adds some UI Gitlab wokflow to your studio
+  documentation: "https://raw.githubusercontent.com/russdanner/plugin-craftercms-uigoodies/master/README.md"
+  website:
+    name: Studio UI Goodies
+    url: https://github.com/russdanner/plugin-craftercms-gitlab
+  media:
+    screenshots:
+      - title: CrafterCMS
+        description: CrafterCMS Plugin for Crafter Studio that adds UI helpers and extensions
+        url: "https://raw.githubusercontent.com/russdanner/plugin-craftercms-Studio UI Goodies/master/.crafter/logo.png"
+  developer:
+    company:
+      name: Russ Danner
+      email: russdanner@craftercms.com
+      url: https://github.com/russdanner
+  build:
+    id: cafebabe31300070207481d6ba87901d0b0271000
+    date: 2023-10-17T00:00:00Z
+  license:
+    name: MIT
+    url: https://opensource.org/licenses/MIT
+  crafterCmsVersions:
+    - major: 4
+      minor: 1
+      patch: 0
+    - major: 4
+      minor: 1
+      patch: 1
+    - major: 4
+      minor: 1
+      patch: 2
+  crafterCmsEditions:
+    - community
+    - enterprise
+  parameters:
+    - label: Gitlab Base URL
+      name: baseUrl
+      description: example https://gitlab.com
+    - label: GitLab API Key
+      name: apiKey
+      description: Gitlab API Key
