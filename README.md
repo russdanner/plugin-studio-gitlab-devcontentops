@@ -23,13 +23,13 @@ curl --location --request POST 'http://SERVER_AND_PORT/studio/api/2/marketplace/
 --data-raw '{
   "siteId": "YOUR-SITE-ID",
   "path": "THE_ABSOLUTEL_FILE_SYSTEM_PATH_TO_THIS_REPO",
-  "parameters": { }"apiKey": "your-key-here", "baseUrl":"https://gitlab.com"
+  "parameters": { "apiKey": "your-key-here", "baseUrl":"https://gitlab.com" }
 }
 ```
 
 # Widget Configuration Guide
 
-## Toolbar Edit button
+## Toolbar Merge Request Button
 
 ```xml
 <widget id="org.rd.plugin.gitlab.CreateMergeRequest">
